@@ -1,0 +1,117 @@
+"title": "Trichomoniasis (‘Trich’)",
+               "class": [
+                  "common"
+               ],
+               "brief": "Trich is caused by the single-cell protozoan parasite trichomonas vaginalis. The vagina is the most common site of infection in women resulting in small open sores on the vaginal wall, and the urethra is the most common site of infection in men.The parasite is contracted via direct genital fluid contact and can be transmitted through penis to vagina intercourse or vulva to vulva contact with an infected partner. Trichomonas lives in warm and damp environments like the vagina, urethra, or bladder. It is usually sexually transmitted, but is occasionally spread by sharing damp towels, washclothes, or bathing suits.",
+               "profile": {
+                  "male": {
+                     "a": [
+                        "pain while urinating",
+                        "pain during intercourse",
+                        "pain when urinating",
+                        "discharge from penis",
+                        "groin swelling"
+                     ],
+                     "b": [
+                        "pain while urinating",
+                        "pain during intercourse",
+                        "pain when urinating",
+                        "discharge from penis",
+                        "groin swelling"
+                     ],
+                     "c": [
+                        "pain while urinating",
+                        "pain during intercourse",
+                        "pain when urinating",
+                        "discharge from penis",
+                        "groin swelling"
+                     ],
+                     "d": [
+                        "pain while urinating",
+                        "pain during intercourse",
+                        "pain when urinating",
+                        "discharge from penis",
+                        "groin swelling"
+                     ]
+                  },
+                  "female": {
+                     "pregnant": {
+                        "a": [
+                           "pain while urinating",
+                           "pain during intercourse",
+                           "pain when urinating",
+                           "discharge from vagina",
+                           "groin swelling",
+                           "burning sensation after urination",
+                           "itching genital area"
+                        ],
+                        "b": [
+                           "pain while urinating",
+                           "pain during intercourse",
+                           "pain when urinating",
+                           "discharge from vagina",
+                           "groin swelling",
+                           "burning sensation after urination",
+                           "itching genital area"
+                        ],
+                        "c": [
+                           "pain while urinating",
+                           "pain during intercourse",
+                           "pain when urinating",
+                           "discharge from vagina",
+                           "groin swelling",
+                           "burning sensation after urination",
+                           "itching genital area"
+                        ],
+                        "d": [
+                           "pain while urinating",
+                           "pain during intercourse",
+                           "pain when urinating",
+                           "discharge from vagina",
+                           "groin swelling",
+                           "burning sensation after urination",
+                           "itching genital area"
+                        ]
+                     },
+                     "not_pregnant": {
+                        "a": [
+                           "pain while urinating",
+                           "pain during intercourse",
+                           "pain when urinating",
+                           "discharge from vagina",
+                           "groin swelling",
+                           "burning sensation after urination",
+                           "itching genital area"
+                        ],
+                        "b": [
+                           "pain while urinating",
+                           "pain during intercourse",
+                           "pain when urinating",
+                           "discharge from vagina",
+                           "groin swelling",
+                           "burning sensation after urination",
+                           "itching genital area"
+                        ],
+                        "c": [
+                           "pain while urinating",
+                           "pain during intercourse",
+                           "pain when urinating",
+                           "discharge from vagina",
+                           "groin swelling",
+                           "burning sensation after urination",
+                           "itching genital area"
+                        ],
+                        "d": [
+                           "pain while urinating",
+                           "pain during intercourse",
+                           "pain when urinating",
+                           "discharge from vagina",
+                           "groin swelling",
+                           "burning sensation after urination",
+                           "itching genital area"
+                        ]
+                     }
+                  }
+               }
+            }
+         }
