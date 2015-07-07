@@ -16,7 +16,11 @@
 | environments.
 |
 */
-$config['base_url'] = 'http://localhost/utano/';
+//Adonis
+//$config['base_url'] = 'http://localhost/utano/';
+//
+//Steve
+$config['base_url'] = 'http://localhost/kaizen/utano/app/';
 
 /*
 |--------------------------------------------------------------------------
