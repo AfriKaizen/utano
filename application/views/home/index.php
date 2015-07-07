@@ -1,8 +1,9 @@
-<div class="ui divider"></div>
+
 <div class="ui grid">
   <div class="four wide column"></div>
   <div class="eight wide column">
     <div class="ui raised segment">
+    <div class="ui divider"></div>
       <div class="ui ordered steps">
         <div class="completed step">
           <div class="content">
@@ -25,6 +26,7 @@
           </div>
         </div>
       </div>
+      <div class="ui divider"></div>
 </div>
   </div>
   <div class="four wide column"></div>
