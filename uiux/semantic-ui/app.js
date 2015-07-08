@@ -1,7 +1,13 @@
-$('.ui.dropdown')
-  .dropdown()
-;
+$('#age-info')
+  .dropdown({
+  	onChange: function(val){
+  		alert(val);
+  	}
+  });
 
-$('.ui.radio.checkbox')
-  .checkbox()
-;
+$('.gender-selection')
+  .checkbox({
+  	onChange: function(val){
+  		alert( $( this ).val() );
+  	}
+  });

@@ -1,6 +1,7 @@
+
 <form class="ui form">
   <h4 class="ui dividing header">Personal Choices</h4>
-  <!-- I am searching for -->
+  <!-- I am searching for
   <div class="field">
     <div class="two fields">
       <div class="field">
@@ -18,7 +19,7 @@
         </div>
       </div>
      </div>
-    </div>
+    </div>  -->
   <!-- I am searching for -->
   <div class="field">
     <div class="two fields">
@@ -26,19 +27,19 @@
        I am:
       </div>
       <div class="field">
-        <div class="ui radio checkbox">
-        <input class="hidden" tabindex="0" name="gender" checked="" type="radio">
+        <div class="ui radio checkbox gender-selection">
+        <input class="hidden" value="male" tabindex="0" name="gender" checked="" type="radio">
         <label>Male</label>
       </div>
-      <div class="ui radio checkbox">
-        <input class="hidden" tabindex="0" name="gender" checked="true" type="radio">
+      <div class="ui radio checkbox gender-selection">
+        <input class="hidden" value="female" tabindex="0" name="gender" checked="true" type="radio">
         <label>Female</label>
       </div>
       </div>
      </div>
     </div>
     <!-- I am from -->
-  <div class="field">
+  <!-- <div class="field">
     <div class="two fields">
       <div class="field">
        I am from:
@@ -53,9 +54,9 @@
             <div class="item" data-value="someone">South Africa</div>
           </div>
         </div>
-      </div>
+      </div> 
      </div>
-    </div>
+    </div> -->
     <!-- Age -->
     <div class="field">
     <div class="two fields">
@@ -63,7 +64,7 @@
        How old are you:
       </div>
       <div class="field">
-        <div class="ui dropdown">
+        <div class="ui dropdown" id="age-info">
           <input name="who" type="hidden">
           <i class="dropdown icon"></i>
           <div class="default text">Age</div>
@@ -81,16 +82,36 @@
     <div class="field">
     Symptoms.
     </div>
-    <div class="field">
-      <input type="text"><br/>
-      <input type="text"><br/>
-      <input type="text"><br/>
-      <input type="text"><br/>
-      <input type="text"><br/>
-      <input type="text"><br/>
-      <input type="text"><br/>
-      <input type="text"><br/>
-      <button class="ui blue button">Add More Symptoms</button>
+    <div class="field" style="height:250px">
+      <div class="container" style="height: 249px; overflow: auto;">
+        <button class="ui right basic button">
+          Next
+        </button><br/>
+        <button class="ui right basic button">
+          Next
+        </button><br/>
+                <button class="ui right basic button">
+          Next
+        </button><br/>
+                <button class="ui right basic button">
+          Next
+        </button><br/>
+                <button class="ui right basic button">
+          Next
+        </button><br/>
+                <button class="ui right basic button">
+          Next
+        </button><br/>
+                <button class="ui right basic button">
+          Next
+        </button><br/>
+                <button class="ui right basic button">
+          Next
+        </button><br/>
+                <button class="ui right basic button">
+          Next
+        </button><br/>
+      </div>
     </div>
    </form>
 
