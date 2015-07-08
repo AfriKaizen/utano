@@ -45,16 +45,43 @@ function getSymptoms(age,gender){
 });
 }
 
+function getDiagnosis(endpoint, symptoms){
+
+  $.ajax({
+    method: "POST",
+    url: "http://localhost/kaizen/utano/app/search/get/",
+    data: {endpoint: endpoint, symptoms: symptoms}, 
+    success: function(data){
+      data = JSON.parse(data);
+      $('#diagnosis').empty();
+    for (i = 0; i < data['hits']['hits'].length; i++) {
+    var results = data['hits']['hits'][i]['_source']['title'];
+    var button = "<div class='ui secondary segment symptoms-button'>"
+      +results+"</div>";
+      $('#diagnosis').append(button);
+    }
+    }
+  });
+}
+
 
 
 //button click event that is used by user to select symptoms.
-$('.symptoms-list').on('click','.symptoms-button',function(e) {
+$('.symptoms-list').on('click','.symptoms-button',function(e){
     e.preventDefault(); 
     var button = $(this).index();
     console.log(button);
     $(this).hide();
     var symptom = "<div class='ui label'>"+$(this).children([0]).val()+"<i class='delete icon remove' button="+button+"></i></div>";
     $('div#selected-symptoms').append(symptom);
+    
+    var symptoms = "";
+    $('div#selected-symptoms').children('div').each(function(){
+        symptoms += $(this).text()+" ";
+    });
+    var gender = $('#gender').val();
+    var age = $('#who').val();
+    getDiagnosis(gender+"."+age,symptoms);
   });
 
 
@@ -63,6 +90,13 @@ $('.symptoms-list').on('click','.symptoms-button',function(e) {
  	console.log($(this).attr('button'));
  		$('.symptoms-list').children('div').eq($(this).attr('button')).show();
  		$(this).parent().remove();
+    var symptoms = "";
+    $('div#selected-symptoms').children('div').each(function(){
+        symptoms += $(this).text()+" ";
+    });
+    var gender = $('#gender').val();
+    var age = $('#who').val();
+    getDiagnosis(gender+"."+age,symptoms);
  });
 
 
