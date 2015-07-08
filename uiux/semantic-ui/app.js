@@ -25,7 +25,7 @@ function getSymptoms(age,gender){
 
   $.ajax({
     method: "POST",
-    url: "http://localhost/kaizen/utano/app/search/here/",
+    url: "http://localhost/kaizen/utano/search/here/",
     data: {gender: gender, age: age },
     success: function(data){
     data = JSON.parse(data);

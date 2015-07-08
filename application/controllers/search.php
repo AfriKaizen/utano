@@ -29,7 +29,9 @@ class Search extends CI_Controller {
 	
 
 	public function here(){
-		$client = new Elasticsearch\Client();
+		$params = array();
+		$params['hosts'] = array('http://192.168.1.4:9200');
+		$client = new Elasticsearch\Client($params);
 		$searchParams['index'] = 'utano';
 		$searchParams['type']  = 'sti';
 		$profile = "profile".".".$_POST['gender'].".".$_POST['age'];
