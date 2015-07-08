@@ -8,14 +8,13 @@
       type="image/png" 
       href="<?php echo $url;?>uiux/img/favicon.png">
     <title>Utano</title>
-    
     <link rel="stylesheet" type="text/css" href="<?php echo $url?>uiux/semantic-ui/semantic.min.css">
    
   </head>
 
  <div class="ui menu">
   <div class="header item">
-    Utano Network
+    <a href="<?php echo  base_url();?>">Utano Network</a>
   </div>
   <a class="item">
     About Us

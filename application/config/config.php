@@ -17,7 +17,7 @@
 |
 */
 //Adonis
-$config['base_url'] = 'http://localhost/kaizen/utano/';
+//$config['base_url'] = 'http://localhost/kaizen/utano/';
 //
 //Steve
 //$config['base_url'] = 'http://localhost/kaizen/utano/app/';
