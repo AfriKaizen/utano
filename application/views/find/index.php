@@ -23,7 +23,7 @@ Get the care you need. It's FREE!</strong></p>
       <div class="menu">
         <div class="item" data-value="Audiologist"></i>Audiologist</div>
   <div class="item" data-value="Anesthesiologist"></i>Anesthesiologist</div>
-  <div class="item" data-value="Masvingo"></i>Masvingo</div>
+  <div class="item" data-value="Urologist"></i>Urologist</div>
   <div class="item" data-value="Dentist"></i>Dentist</div>
   <div class="item" data-value="Dermatologist"></i>Dermatologist</div>
   <div class="item" data-value="Epidemiologist"></i>Epidemiologist</div>
