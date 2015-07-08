@@ -1,4 +1,3 @@
-
 <div class="ui grid">
   <div class="two wide column"></div>
   <div class="twelve wide column">

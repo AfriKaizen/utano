@@ -27,14 +27,15 @@
        I am:
       </div>
       <div class="field">
-        <div class="ui radio checkbox gender-selection">
-        <input class="hidden" value="male" tabindex="0" name="gender" checked="" type="radio">
-        <label>Male</label>
-      </div>
-      <div class="ui radio checkbox gender-selection">
-        <input class="hidden" value="female" tabindex="0" name="gender" checked="true" type="radio">
-        <label>Female</label>
-      </div>
+        <div class="ui dropdown" id="gender-info">
+          <input id="gender" type="hidden">
+          <i class="dropdown icon"></i>
+          <div class="default text">Gender</div>
+          <div class="menu">
+            <div class="item" data-value="male">Male</div>
+            <div class="item" data-value="female">Female</div>
+          </div>
+        </div>
       </div>
      </div>
     </div>
@@ -65,7 +66,7 @@
       </div>
       <div class="field">
         <div class="ui dropdown" id="age-info">
-          <input name="who" type="hidden">
+          <input id="who" type="hidden">
           <i class="dropdown icon"></i>
           <div class="default text">Age</div>
           <div class="menu">
@@ -84,15 +85,6 @@
     </div>
     <div class="field" style="height:250px">
       <div class="symptoms-list" style="height: 249px; overflow: auto;">
-        <div class="symptoms-button"><button class="ui right basic button" value="vaginal warts">
-          vaginal warts
-        </button><br/></div>
-        <div class="symptoms-button"><button class="ui right basic button" value="vaginal thrash">
-          vaginal thrash
-        </button><br/></div>
-        <div class="symptoms-button"><button class="ui right basic button" value="vaginal rash">
-          vaginal rash
-        </button><br/></div>
       </div>
     </div>
    </form>
