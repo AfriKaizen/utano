@@ -83,34 +83,16 @@
     Symptoms.
     </div>
     <div class="field" style="height:250px">
-      <div class="container" style="height: 249px; overflow: auto;">
-        <button class="ui right basic button">
-          Next
-        </button><br/>
-        <button class="ui right basic button">
-          Next
-        </button><br/>
-                <button class="ui right basic button">
-          Next
-        </button><br/>
-                <button class="ui right basic button">
-          Next
-        </button><br/>
-                <button class="ui right basic button">
-          Next
-        </button><br/>
-                <button class="ui right basic button">
-          Next
-        </button><br/>
-                <button class="ui right basic button">
-          Next
-        </button><br/>
-                <button class="ui right basic button">
-          Next
-        </button><br/>
-                <button class="ui right basic button">
-          Next
-        </button><br/>
+      <div class="symptoms-list" style="height: 249px; overflow: auto;">
+        <div class="symptoms-button"><button class="ui right basic button" value="vaginal warts">
+          vaginal warts
+        </button><br/></div>
+        <div class="symptoms-button"><button class="ui right basic button" value="vaginal thrash">
+          vaginal thrash
+        </button><br/></div>
+        <div class="symptoms-button"><button class="ui right basic button" value="vaginal rash">
+          vaginal rash
+        </button><br/></div>
       </div>
     </div>
    </form>
