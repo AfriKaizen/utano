@@ -1,3 +1,6 @@
+$('.ui.dropdown')
+  .dropdown()
+;
 $('#age-info')
   .dropdown({
   	onChange: function(val){
