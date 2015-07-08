@@ -1,5 +1,4 @@
 <?php 
-$fullWindow = true;
 if(isset($fullWindow)){ ?>
 <style type="text/css">
   #sticky {
@@ -54,9 +53,11 @@ if(isset($fullWindow)){ ?>
     </div>
   </div>
 
-<script type="text/javascript" src="<?php echo $url?>uiux/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url()?>uiux/jquery/dist/jquery.min.js"></script>
 
-<script type="text/javascript" src="<?php echo $url?>uiux/semantic-ui/semantic.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url()?>uiux/semantic-ui/semantic.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url()?>uiux/semantic-ui/app.min.js"></script>
+
 <?php if(isset($fullWindow)){ ?>
 <script type="text/javascript">
 /*
