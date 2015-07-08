@@ -1,6 +1,8 @@
 <div class="ui grid">
   <div class="four wide column"></div>
   <div align="center" class="eight wide column">
+
+ 
       <br/><br/>
       <div class="ui tall segment">
 
@@ -86,6 +88,8 @@ Get the care you need. It's FREE!</strong></p>
 
   </div>
   <div class="four wide column"></div>
+
+  
 </div>
 
 

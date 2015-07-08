@@ -7,22 +7,38 @@
   <link rel="icon" 
       type="image/png" 
       href="<?php echo $url;?>uiux/img/favicon.png">
-    <title>Utano</title>
+    <title>Utano |</title>
     <link rel="stylesheet" type="text/css" href="<?php echo $url?>uiux/semantic-ui/semantic.min.css">
    
   </head>
 
- <div class="ui menu">
-  <div class="header item">
+ 
+
+<div class="ui segment">
+  <h3 class="ui left floated header">
     <a href="<?php echo  base_url();?>">Utano Network</a>
-  </div>
-  <a class="item">
-    About Us
+  </h3>
+  <h3 class="ui right floated header">
+   <a class="item">
+    About Us 
   </a>
-  <a class="item">
-    Jobs
+  </h3>
+  <h3 class="ui right floated header">
+   <a class="item">
+    Partners | 
   </a>
-  <a class="item">
-    Team
+  </h3>
+  <h3 class="ui right floated header">
+    <a class="item">
+    Jobs  |
   </a>
+  </h3>
+  
+  <h3 class="ui right floated header">
+    Team  | 
+  </h3>
+  <h3 class="ui right floated header">
+   <a href="<?php echo base_url();?>find/practise" class="ui blue button">Add your practise.</a>
+
+  </h3>
 </div>
