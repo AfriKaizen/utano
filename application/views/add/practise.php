@@ -4,7 +4,7 @@
   <div align="center" class="eight wide column">
       <br/><br/>
 
-<div class="ui attached message">
+<div class="ui teal segment">
   <div class="header">
     
   </div>

@@ -1,3 +1,10 @@
+$('.ui.modal')
+  .modal({
+    inverted: true
+  })
+  .modal('show')
+;
+$('.tabular.menu .item').tab();
 $('.ui.dropdown')
   .dropdown()
 ;

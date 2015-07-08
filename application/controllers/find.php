@@ -18,6 +18,14 @@ class Find extends CI_Controller {
 		$this->load->view('footer',$data);
 	}
 
+	 public function profile()
+	{
+		$data = array('fullWindow'=> true);
+		$this->load->view('header');
+		$this->load->view('add/profile');
+		$this->load->view('footer',$data);
+	}
+
 	 public function team()
 	{
 		$data = array('fullWindow'=> true);
@@ -39,6 +47,14 @@ class Find extends CI_Controller {
 		$data = array('fullWindow'=> true);
 		$this->load->view('header');
 		$this->load->view('add/jobs');
+		$this->load->view('footer',$data);
+	}
+
+	 public function book()
+	{
+		$data = array('fullWindow'=> true);
+		$this->load->view('header');
+		$this->load->view('add/book');
 		$this->load->view('footer',$data);
 	}
 
