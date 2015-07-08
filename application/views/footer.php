@@ -1,5 +1,4 @@
 <?php 
-$fullWindow = true;
 if(isset($fullWindow)){ ?>
 <style type="text/css">
   #sticky {
