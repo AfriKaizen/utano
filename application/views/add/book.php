@@ -18,7 +18,7 @@
       Nope
     </div>
     <div class="ui positive right labeled icon button">
-      Yep, that's me
+      Confirm Book
       <i class="checkmark icon"></i>
     </div>
   </div>

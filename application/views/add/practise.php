@@ -22,29 +22,49 @@
       <input placeholder="Last Name" type="text">
     </div>
       </div>
+      <div class="two fields">
+    <div class="field">
+      <label>Phone Number</label>
+      <input placeholder="Your direct phone number" type="text">
+    </div>
+    <div class="field">
+      <label>Email Address </label>
+      <input placeholder="e.g yourname@yourdomain.com" type="text">
+    </div>
+      </div>
+
+      
   <div class="field">
-    <p><h4><strong>Choose your Speciality</strong></h4></p>
+    <label>Password</label>
+    <input type="password">
+  </div>
+  
+
+  <div class="two field">
+    <label>Choose your Speciality</label>
     <div class="ui dropdown selection">
       <input type="hidden" name="medicalaid">
-      <div class="default text">speciality</div>
+      <div class="default text">Your Speciality</div>
       <i class="dropdown icon"></i>
       <div class="menu">
-        <div class="item" data-value="CORPORATE 24">CORPORATE 24</div>
-        <div class="item" data-value="TN HEALTH">TN HEALTH</div>
-         <div class="item" data-value="PSMAS">PSMAS</div>
-        <div class="item" data-value="OLD MUTUAL">OLD MUTUAL</div>
-        <div class="item" data-value="CORPORATE 24">CORPORATE 24</div>
-        <div class="item" data-value="TN HEALTH">TN HEALTH</div>
-         <div class="item" data-value="PSMAS">PSMAS</div>
-        <div class="item" data-value="OLD MUTUAL">OLD MUTUAL</div>
+        <div class="item" data-value="Audiologist"></i>Audiologist</div>
+  <div class="item" data-value="Anesthesiologist"></i>Anesthesiologist</div>
+  <div class="item" data-value="Urologist"></i>Urologist</div>
+  <div class="item" data-value="Dentist"></i>Dentist</div>
+  <div class="item" data-value="Dermatologist"></i>Dermatologist</div>
+  <div class="item" data-value="Epidemiologist"></i>Epidemiologist</div>
+  <div class="item" data-value="Infectious Disease Specialist"></i>Infectious Disease Specialist</div>
+  <div class="item" data-value="Neurosurgeon"></i>Neurosurgeon</div>
+  <div class="item" data-value="Physiologist"></i>Physiologist</div>
+  <div class="item" data-value="RadiologistRadiologist"></i>Radiologist</div>
       </div>
     </div>
 
-     <div class="field">
-    <p><h4><strong>Place</strong></h4></p>
+    <div class="field">
+    <label>Place</label>
     <div class="ui dropdown selection">
       <input type="hidden" name="medicalaid">
-      <div class="default text">Place</div>
+      <div class="default text">Your Location</div>
       <i class="dropdown icon"></i>
       <div class="menu">
        <div class="item" data-value="Harare"></i>Harare</div>
@@ -60,18 +80,8 @@
       </div>
     </div>
   
-  </div><div class="field">
-    <label>Your direct phone number</label>
-    <input placeholder="cell" type="text">
   </div>
-  <div class="field">
-    <label>Username</label>
-    <input placeholder="Username" type="text">
-  </div>
-  <div class="field">
-    <label>Password</label>
-    <input type="password">
-  </div>
+
   <div class="inline field">
     <div class="ui checkbox">
       <input type="checkbox" id="terms">

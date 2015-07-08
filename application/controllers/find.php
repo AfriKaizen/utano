@@ -58,6 +58,14 @@ class Find extends CI_Controller {
 		$this->load->view('footer',$data);
 	}
 
+	 public function partners()
+	{
+		$data = array('fullWindow'=> true);
+		$this->load->view('header');
+		$this->load->view('add/partners');
+		$this->load->view('footer',$data);
+	}
+
 
 
 
