@@ -20,13 +20,26 @@ class Search extends CI_Controller {
 		$getParams = array();
 		$getParams['index'] = 'utano';
 		$getParams['type']  = 'sti';
-		$getParams['id']    = '1';
-		$retDoc = $client->get($getParams);
-		$data = array('results'=>$retDoc);
-		$this->load->view('welcome_message',$data);
+
+		$profile = "profile".".".$_POST['endpoint'];
+
+						$searchParams['body'] = array(
+				 '_source' => 'title',
+						'query' => array(
+		    'match' => array(
+		      $profile => array(
+		        'query'=>$_POST['symptoms'],
+		        'operator'=>'or'
+		      )
+		    )
+		  )
+			);
+
+			$retDoc = $client->search($searchParams);
+   echo json_encode($retDoc,JSON_PRETTY_PRINT);
 	}
 
-	
+
 
 	public function here(){
 		$params = array();
