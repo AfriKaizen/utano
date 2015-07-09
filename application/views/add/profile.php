@@ -1,28 +1,29 @@
+
 <div class="ui modal">
   <i class="close icon"></i>
   <div class="header">
-    Profile Picture
+    Header
   </div>
   <div class="content">
-    <div class="ui medium image">
-      <img src="/images/avatar/large/chris.jpg">
+    <div class="left">
+      Some content to the left, usually an image or icon
     </div>
-    <div class="description">
-      <div class="ui header">We've auto-chosen a profile image for you.</div>
-      <p>We've grabbed the following image from the <a href="https://www.gravatar.com" target="_blank">gravatar</a> image associated with your registered e-mail address.</p>
-      <p>Is it okay to use this photo?</p>
+    <div class="right">
+      Some content to the right
     </div>
   </div>
   <div class="actions">
-    <div class="ui black deny button">
-      Nope
+    <div class="ui button">
+      Cancel
     </div>
-    <div class="ui positive right labeled icon button">
-      Confirm Book
-      <i class="checkmark icon"></i>
+    <div class="ui button">
+      Okay
     </div>
   </div>
 </div>
+
+
+
 
 <div class="ui grid">
   <div class="four wide column"></div>
@@ -54,7 +55,7 @@
     <div class="extra content">
        <div class="ui two buttons">
        <div class="ui basic green button booking">Book Now</div>
-        <div class="ui basic red button">View Profile</div>
+        <div class="ui basic red button profile">View Profile</div>
       </div>
     </div>
   </div>

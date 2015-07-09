@@ -6,6 +6,11 @@ $('.booking').on('click', function(){
     }).modal('show');
 });
 
+$('.profile').on('click', function(){
+$('.long.modal')
+  .modal('show');
+});
+
 
 
 $('.tabular.menu .item').tab();
