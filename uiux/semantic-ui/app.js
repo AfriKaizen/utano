@@ -49,7 +49,7 @@ function getDiagnosis(endpoint, symptoms){
 
   $.ajax({
     method: "POST",
-    url: "http://localhost/kaizen/utano/app/search/get/",
+    url: "http://localhost/kaizen/utano/search/get/",
     data: {endpoint: endpoint, symptoms: symptoms}, 
     success: function(data){
       data = JSON.parse(data);
