@@ -50,11 +50,11 @@ class Find extends CI_Controller {
 		$this->load->view('footer',$data);
 	}
 
-	 public function book()
+	 public function docprofile()
 	{
 		$data = array('fullWindow'=> true);
 		$this->load->view('header');
-		$this->load->view('add/book');
+		$this->load->view('add/docprofile');
 		$this->load->view('footer',$data);
 	}
 

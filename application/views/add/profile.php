@@ -1,26 +1,50 @@
 
 <div class="ui modal">
-  <i class="close icon"></i>
-  <div class="header">
-    Header
-  </div>
-  <div class="content">
-    <div class="left">
-      Some content to the left, usually an image or icon
+ <div class="container">
+  
+  <h1>Sign Up for Booking.</h1>
+
+  <div class="ui form segment">   
+    <div class="two fields">
+      <div class="field">
+        <label for="GivenName">First Name</label>
+        <input id="GivenName" placeholder="Name" type="text" />
+      </div>
+
+      <div class="field">
+        <label for="Surname">Surname</label>
+        <input id="Surname" placeholder="Surname" type="text">
+      </div>
     </div>
-    <div class="right">
-      Some content to the right
+
+   <div class="two fields">
+      <div class="field">
+        <label for="email">Email</label>
+        <input id="email" placeholder="Your Email" type="text" />
+      </div>
+
+      <div class="field">
+        <label for="phonenumber">Phone Number</label>
+        <input id="Phonenumber" placeholder="Phone Number" type="text">
+      </div>
     </div>
-  </div>
-  <div class="actions">
-    <div class="ui button">
-      Cancel
+
+    <div class="field">
+      <label for="Password">Password</label>
+      <input id="Password" type="password">
     </div>
-    <div class="ui button">
-      Okay
+
+    <div class="field">
+      <label for="PasswordConfirm">Password Confirm</label>
+      <input id="PasswordConfirm" type="password">
     </div>
-  </div>
+
+    <button class="ui blue button">Confirm Book</button>
+  </div>    
 </div>
+</div>
+
+
 
 
 
@@ -39,171 +63,116 @@
 <div class="ui teal segment">
 
 <div class="ui cards">
+
   <div class="card">
     <div class="content">
       <img class="right floated mini ui image" src="/images/avatar/large/elliot.jpg">
       <div class="header">
-        Elliot Fu
+        Dr .Elliot Matambanadzo
       </div>
       <div class="meta">
-        Friends of Veronika
+        Joined Utano in March 2012
       </div>
       <div class="description">
-        Elliot requested permission to view your contact details
+       <strong>Medical School - Icahn School of Medicine at Mount Sinai
+       New York University, Fellowship in Geriatrics</strong>
       </div>
     </div>
     <div class="extra content">
        <div class="ui two buttons">
        <div class="ui basic green button booking">Book Now</div>
-        <div class="ui basic red button profile">View Profile</div>
-      </div>
+       <a href="<?php echo base_url();?>find/docprofile" class="ui basic red button profile">View Profile</a>
+        </div>
+      
     </div>
   </div>
+
+
   <div class="card">
     <div class="content">
-      <img class="right floated mini ui image" src="/images/avatar/large/jenny.jpg">
+      <img class="right floated mini ui image" src="/images/avatar/large/elliot.jpg">
       <div class="header">
-        Jenny Hess
+        Dr. Nancy Matagu
       </div>
       <div class="meta">
-        New Member
+        Joined Utano in December 2014
       </div>
       <div class="description">
-        Jenny wants to add you to the group <b>best friends</b>
+       <strong>Medical School - Icahn School of Medicine at Mount Sinai
+       New York University, Fellowship in Geriatrics</strong>
       </div>
     </div>
     <div class="extra content">
-      <div class="ui two buttons">
-        <div class="ui basic green button">Book Now</div>
-        <div class="ui basic red button">View Profile</div>
-      </div>
+       <div class="ui two buttons">
+       <div class="ui basic green button booking">Book Now</div>
+       <a href="<?php echo base_url();?>find/docprofile" class="ui basic red button profile">View Profile</a>
+        </div>
+      
     </div>
   </div>
-
-
-
 
 <div class="card">
     <div class="content">
-      <img class="right floated mini ui image" src="/images/avatar/large/jenny.jpg">
+      <img class="right floated mini ui image" src="/images/avatar/large/elliot.jpg">
       <div class="header">
-        Jenny Hess
+        Dr. Nancy Matagu
       </div>
       <div class="meta">
-        New Member
+        Joined Utano in December 2014
       </div>
       <div class="description">
-        Jenny wants to add you to the group <b>best friends</b>
+       <strong>Medical School - Icahn School of Medicine at Mount Sinai
+       New York University, Fellowship in Geriatrics</strong>
       </div>
     </div>
     <div class="extra content">
-      <div class="ui two buttons">
-        <div class="ui basic green button">Book Now</div>
-        <div class="ui basic red button">View Profile</div>
-      </div>
+       <div class="ui two buttons">
+       <div class="ui basic green button booking">Book Now</div>
+       <a href="<?php echo base_url();?>find/docprofile" class="ui basic red button profile">View Profile</a>
+        </div>
+      
     </div>
   </div>
 
   <div class="card">
     <div class="content">
-      <img class="right floated mini ui image" src="/images/avatar/large/jenny.jpg">
+      <img class="right floated mini ui image" src="/images/avatar/large/elliot.jpg">
       <div class="header">
-        Jenny Hess
+        Dr. Nancy Matagu
       </div>
       <div class="meta">
-        New Member
+        Joined Utano in December 2014
       </div>
       <div class="description">
-        Jenny wants to add you to the group <b>best friends</b>
+       <strong>Medical School - Icahn School of Medicine at Mount Sinai
+       New York University, Fellowship in Geriatrics</strong>
       </div>
     </div>
     <div class="extra content">
-      <div class="ui two buttons">
-        <div class="ui basic green button">Book Now</div>
-        <div class="ui basic red button">View Profile</div>
-      </div>
+       <div class="ui two buttons">
+       <div class="ui basic green button booking">Book Now</div>
+       <a href="<?php echo base_url();?>find/docprofile" class="ui basic red button profile">View Profile</a>
+        </div>
+      
     </div>
   </div>
-  <div class="card">
-    <div class="content">
-      <img class="right floated mini ui image" src="/images/avatar/large/jenny.jpg">
-      <div class="header">
-        Jenny Hess
-      </div>
-      <div class="meta">
-        New Member
-      </div>
-      <div class="description">
-        Jenny wants to add you to the group <b>best friends</b>
-      </div>
-    </div>
-    <div class="extra content">
-      <div class="ui two buttons">
-        <div class="ui basic green button">Book Now</div>
-        <div class="ui basic red button">View Profile</div>
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="content">
-      <img class="right floated mini ui image" src="/images/avatar/large/jenny.jpg">
-      <div class="header">
-        Jenny Hess
-      </div>
-      <div class="meta">
-        New Member
-      </div>
-      <div class="description">
-        Jenny wants to add you to the group <b>best friends</b>
-      </div>
-    </div>
-    <div class="extra content">
-      <div class="ui two buttons">
-        <div class="ui basic green button">Book Now</div>
-        <div class="ui basic red button">View Profile</div>
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="content">
-      <img class="right floated mini ui image" src="/images/avatar/large/jenny.jpg">
-      <div class="header">
-        Jenny Hess
-      </div>
-      <div class="meta">
-        New Member
-      </div>
-      <div class="description">
-        Jenny wants to add you to the group <b>best friends</b>
-      </div>
-    </div>
-    <div class="extra content">
-      <div class="ui two buttons">
-        <div class="ui basic green button">Book Now</div>
-        <div class="ui basic red button">View Profile</div>
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="content">
-      <img class="right floated mini ui image" src="/images/avatar/large/jenny.jpg">
-      <div class="header">
-        Jenny Hess
-      </div>
-      <div class="meta">
-        New Member
-      </div>
-      <div class="description">
-        Jenny wants to add you to the group <b>best friends</b>
-      </div>
-    </div>
-    <div class="extra content">
-      <div class="ui two buttons">
-        <a href="<?php echo base_url();?>find/book" class="ui basic green button">Book Now</a>
-        <div class="ui basic red button">View Profile</div>
-      </div>
-    </div>
-  </div>
+ 
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+  
+
+ 
+
 
 </div>
 

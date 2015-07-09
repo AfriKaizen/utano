@@ -7,9 +7,10 @@ $('.booking').on('click', function(){
 });
 
 $('.profile').on('click', function(){
-$('.long.modal')
-  .modal('show');
+$('.test.modal')
+  .modal('show')
 });
+
 
 
 
