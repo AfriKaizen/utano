@@ -25,7 +25,7 @@ function getSymptoms(age,gender){
 
   $.ajax({
     method: "POST",
-    url: "http://localhost/kaizen/utano/search/here/",
+    url: "http://localhost/kaizen/utano/app/search/here/",
     data: {gender: gender, age: age },
     success: function(data){
     data = JSON.parse(data);
@@ -49,7 +49,7 @@ function getDiagnosis(endpoint, symptoms){
 
   $.ajax({
     method: "POST",
-    url: "http://localhost/kaizen/utano/search/get/",
+    url: "http://localhost/kaizen/utano/app/search/get/",
     data: {endpoint: endpoint, symptoms: symptoms}, 
     success: function(data){
       data = JSON.parse(data);
