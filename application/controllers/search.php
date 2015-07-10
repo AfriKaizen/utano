@@ -26,7 +26,7 @@ class Search extends CI_Controller {
 		$profile = "profile".".".$_POST['endpoint'];
 
 						$searchParams['body'] = array(
-				 '_source' => 'title',
+				 //'_source' => 'title',
 						'query' => array(
 		    'match' => array(
 		      $profile => array(
