@@ -17,7 +17,7 @@ class Search extends CI_Controller {
 
 		public function get(){
 		$params = array();
-		$params['hosts'] = array('http://192.168.1.4:9200');
+		//$params['hosts'] = array('http://192.168.1.4:9200');
 		$client = new Elasticsearch\Client($params);
 		$getParams = array();
 		$getParams['index'] = 'utano';
@@ -45,7 +45,7 @@ class Search extends CI_Controller {
 
 	public function here(){
 		$params = array();
-		$params['hosts'] = array('http://192.168.1.4:9200');
+		//$params['hosts'] = array('http://192.168.1.4:9200');
 		$client = new Elasticsearch\Client($params);
 		$searchParams['index'] = 'utano';
 		$searchParams['type']  = 'sti';
