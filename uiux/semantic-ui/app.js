@@ -82,7 +82,7 @@ function getDiagnosis(endpoint, symptoms){
 
     var title = "<div class='title'><i class='dropdown icon'></i>"+title+"</div>";
     var content = "<div class='content'><h5><p class='transition hidden toBeHidden'>";
-    content = content +brief+"</p></h5><p><a <href='http://localhost/kaizen/utano/app/'></href>></p></div>";
+    content = content +brief+"</p></h5><p><a href='http://localhost/kaizen/utano/app/find/profile/'>Get help about treatment</a></p></div>";
 
     var display = accordion+title+content+"</div>";
 
