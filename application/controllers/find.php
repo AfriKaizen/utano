@@ -7,7 +7,7 @@ class Find extends CI_Controller {
 		$data = array('fullWindow'=> true);
 		$this->load->view('header');
 		$this->load->view('find/index');
-		$this->load->view('footer',$data);
+		$this->load->view('footer');
 	}
 
    public function practise()
@@ -15,7 +15,7 @@ class Find extends CI_Controller {
 		$data = array('fullWindow'=> true);
 		$this->load->view('header');
 		$this->load->view('add/practise');
-		$this->load->view('footer',$data);
+		$this->load->view('footer');
 	}
 
 	 public function profile()
@@ -23,7 +23,7 @@ class Find extends CI_Controller {
 		$data = array('fullWindow'=> true);
 		$this->load->view('header');
 		$this->load->view('add/profile');
-		$this->load->view('footer',$data);
+		$this->load->view('footer');
 	}
 
 	 public function team()
