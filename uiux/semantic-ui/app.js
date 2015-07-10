@@ -1,13 +1,13 @@
 
 $('.booking').on('click', function(){
-  $('.ui.modal')
+  $('#modal1')
     .modal({
       inverted: true
     }).modal('show');
 });
 
 $('.profile').on('click', function(){
-$('.test.modal')
+$('#modal2')
   .modal('show')
 });
 
