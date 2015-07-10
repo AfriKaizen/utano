@@ -21,6 +21,12 @@ $('#gender-info')
     }
 });
 
+$('#diagnosis').on('click','.title',function(e){
+  $('.toBeHidden').addClass('hidden');
+  $(this).find($('.content').addClass('active'));
+  $(this).find($('p').removeClass('hidden').addClass('visible'));
+});
+
 function getSymptoms(age,gender){
 
   $.ajax({
@@ -32,7 +38,13 @@ function getSymptoms(age,gender){
 
     $('.symptoms-list').empty();
 
-    for (i = 1; i < data['hits']['hits'].length; i++) {
+    console.log(data['hits']['hits'].length);
+
+    for (i = 0; i < data['hits']['hits'].length - 1; i++) {
+    if(i==2 || i==5){
+      i +=1;
+    } 
+    console.log(data['hits']['hits'][i]['_source']['profile'][gender][age]);
     var results = data['hits']['hits'][i]['_source']['profile'][gender][age];
     
     results.forEach(function(symptom) {
@@ -55,10 +67,27 @@ function getDiagnosis(endpoint, symptoms){
       data = JSON.parse(data);
       $('#diagnosis').empty();
     for (i = 0; i < data['hits']['hits'].length; i++) {
-    var results = data['hits']['hits'][i]['_source']['title'];
-    var button = "<div class='ui secondary segment symptoms-button'>"
-      +results+"</div>";
-      $('#diagnosis').append(button);
+
+
+    var accordion ="<div class='ui styled accordion'>";
+
+    var title = data['hits']['hits'][i]['_source']['title'];
+    var brief = data['hits']['hits'][i]['_source']['brief'];
+    var sTIclass =  data['hits']['hits'][i]['_source']['brief'];
+    var treatment = data['hits']['hits'][i]['_source']['brief'];
+    var type = data['hits']['hits'][i]['_source']['type'];
+    var test = data['hits']['hits'][i]['_source']['test'];
+    var lifelong = data['hits']['hits'][i]['_source']['lifelong'];
+    var lifethreatenging = data['hits']['hits'][i]['_source']['life-threatening'];
+
+    var title = "<div class='title'><i class='dropdown icon'></i>"+title+"</div>";
+    var content = "<div class='content'><h5><p class='transition hidden toBeHidden'>";
+    content = content +brief+"</p></h5><p><a <href='http://localhost/kaizen/utano/app/'></href>></p></div>";
+
+    var display = accordion+title+content+"</div>";
+
+    //var button = "<div class='ui secondary segment symptoms-button'>"+results+"</div>";
+      $('#diagnosis').append(display);
     }
     }
   });
