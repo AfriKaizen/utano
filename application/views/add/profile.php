@@ -1,7 +1,7 @@
 
 <div class="ui modal">
  <div class="container">
-  
+
   <h1>Sign Up for Booking.</h1>
 
   <div class="ui form segment">   
@@ -66,7 +66,7 @@
 
   <div class="card">
     <div class="content">
-      <img class="right floated mini ui image" src="/images/avatar/large/elliot.jpg">
+      <img class="right floated mini ui image" src="<?php echo base_url();?>uiux/images/doc1.jpg">
       <div class="header">
         Dr .Elliot Matambanadzo
       </div>
@@ -90,7 +90,7 @@
 
   <div class="card">
     <div class="content">
-      <img class="right floated mini ui image" src="/images/avatar/large/elliot.jpg">
+      <img class="right floated mini ui image" src="<?php echo base_url();?>uiux/images/doc2.jpg">
       <div class="header">
         Dr. Nancy Matagu
       </div>
@@ -113,7 +113,7 @@
 
 <div class="card">
     <div class="content">
-      <img class="right floated mini ui image" src="/images/avatar/large/elliot.jpg">
+      <img class="right floated mini ui image"  src="<?php echo base_url();?>uiux/images/doc3.jpg">
       <div class="header">
         Dr. Nancy Matagu
       </div>
@@ -136,7 +136,7 @@
 
   <div class="card">
     <div class="content">
-      <img class="right floated mini ui image" src="/images/avatar/large/elliot.jpg">
+      <img class="right floated mini ui image" src="<?php echo base_url();?>uiux/images/doc4.jpg">
       <div class="header">
         Dr. Nancy Matagu
       </div>
