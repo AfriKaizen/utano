@@ -1,7 +1,21 @@
-//activate dropdowns
+
 $('.ui.dropdown').dropdown();
 
-//drop down for selecting age group
+
+$('.booking').on('click', function(){
+  $('#modal1')
+    .modal({
+      inverted: true
+    }).modal('show');
+});
+
+$('.profile').on('click', function(){
+$('#modal2')
+  .modal('show')
+});
+
+$('.tabular.menu .item').tab();
+
 $('#age-info')
   .dropdown({
   	onChange: function(val){

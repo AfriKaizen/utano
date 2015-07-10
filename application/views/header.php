@@ -22,22 +22,23 @@
     <a href="<?php echo  base_url();?>">Utano Network</a>
   </h3>
   <h3 class="ui right floated header">
-   <a class="item">
+   <a href="<?php echo base_url();?>find/about" </a>
     About Us 
   </a>
   </h3>
   <h3 class="ui right floated header">
-   <a class="item">
+   <a href="<?php echo base_url();?>find/partners" </a>
     Partners | 
   </a>
   </h3>
   <h3 class="ui right floated header">
-    <a class="item">
+    <a href="<?php echo base_url();?>find/jobs" </a>
     Jobs  |
   </a>
   </h3>
   
   <h3 class="ui right floated header">
+  <a href="<?php echo base_url();?>find/team" </a>
     Team  | 
   </h3>
   <h3 class="ui right floated header">

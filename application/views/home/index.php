@@ -2,7 +2,8 @@
   <div class="four wide column"></div>
   <div align="center" class="eight wide column">
       <br/><br/>
-      <div class="ui tall segment">
+      
+      <div class="ui teal segment">
       <p><h3>Hi. Welcome to Utano. We help you by diagnising your symptoms and helping you find 
         the best medical care in times of emergency.</h3></p>
     </div>

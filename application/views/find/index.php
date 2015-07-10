@@ -4,13 +4,13 @@
 
  
       <br/><br/>
-      <div class="ui tall segment">
+     <div class="ui teal segment">
 
       <p><h3>Find a Professional nearest Doctor, Clinic and Medical Practioners. </h3></p>
     </div>
       
 <div class="ui teal segment">
-<form method="POST" action="<?php echo base_url();?>search/">
+<form method="POST" action="<?php echo base_url();?>find/profile">
 <p><strong>Find a doctor you love.
 Get the care you need. It's FREE!</strong></p>
 
